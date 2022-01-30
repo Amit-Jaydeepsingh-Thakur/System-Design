@@ -79,11 +79,6 @@ class LoggerClient {
         final Logger logger = new Logger();
         System.out.println("======= Starting the Process Logger ===========");
 
-        // logger.startProcess("1");
-        // logger.pollProcess();
-        // logger.startProcess("2");
-        // logger.pollProcess();
-        // logger.startProcess("3");
         logger.startProcess("1");
         logger.pollProcess();
         logger.startProcess("3");
