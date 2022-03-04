@@ -1,0 +1,1 @@
+The inheritance telss what bthe class does and composition tells what the class is composed of.
