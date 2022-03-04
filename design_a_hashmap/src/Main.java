@@ -35,6 +35,13 @@ public class Main {
         catch(Exception exception) {
             System.out.println(exception);
         }
+
+        try {
+            System.out.println(map.get(null));
+        }
+        catch(Exception exception) {
+            System.out.println(exception);
+        }
     }
 }
 
