@@ -15,11 +15,26 @@ public class Main {
             System.out.println(exception);
         }
 
-//        System.out.println(map.get("Apple"));
-//        System.out.println(map.get("Apple"));
-//        System.out.println(map.get("Motorola"));
+        try {
+            System.out.println(map.get("Apple"));
+        }
+        catch(Exception exception) {
+            System.out.println(exception);
+        }
 
+        try {
+            System.out.println(map.get("Apple"));
+        }
+        catch(Exception exception) {
+            System.out.println(exception);
+        }
 
+        try {
+            System.out.println(map.get("Motorola"));
+        }
+        catch(Exception exception) {
+            System.out.println(exception);
+        }
     }
 }
 
