@@ -33,6 +33,7 @@ public class LRUCache<Key, Value> implements Cache {
             CacheElement<Key, Value> cacheEle = new CacheElement<>(cacheKey, cacheVal);
             LinkedListNode<Key, Value> curr = new LinkedListNode<>(cacheEle);
             this.list.getNode(curr);
+
             return true;
         }
     }
